@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.i18n.reload" value="true"/>
+    <constant name="struts.convention.classes.reload" value="true" />
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+<!--
+    <constant name="struts.convention.default.parent.package" value="someStruts2Package" />
+    <constant name="struts.actions.extension" value=",,actions"/>
+-->
+
+</struts>
