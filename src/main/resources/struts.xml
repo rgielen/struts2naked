@@ -5,14 +5,18 @@
 
 <struts>
 
+    <!-- Be on the safe side without dynamic method invocation -->
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+
+    <!-- Optimized developer options -->
     <constant name="struts.devMode" value="true" />
     <constant name="struts.i18n.reload" value="true"/>
     <constant name="struts.convention.classes.reload" value="true" />
-    <constant name="struts.i18n.encoding" value="UTF-8"/>
-<!--
+
+    <!-- Interesting example options -->
+    <!--
     <constant name="struts.convention.default.parent.package" value="someStruts2Package" />
     <constant name="struts.actions.extension" value=",,actions"/>
--->
+    -->
 
 </struts>
