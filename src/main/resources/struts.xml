@@ -13,6 +13,9 @@
     <constant name="struts.i18n.reload" value="true"/>
     <constant name="struts.convention.classes.reload" value="true" />
 
+    <!-- Default theme set to bootstrap -->
+    <constant name="struts.ui.theme" value="bootstrap" />
+
     <!-- Interesting example options -->
     <!--
     <constant name="struts.convention.default.parent.package" value="someStruts2Package" />
