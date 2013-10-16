@@ -5,13 +5,15 @@
 
 <struts>
 
-    <!-- Be on the safe side without dynamic method invocation -->
-    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
-
     <!-- Optimized developer options -->
     <constant name="struts.devMode" value="true" />
     <constant name="struts.i18n.reload" value="true"/>
     <constant name="struts.convention.classes.reload" value="true" />
+
+    <!-- Chose a different default theme -->
+    <!--
+    <constant name="struts.ui.theme" value="bootstrap" />
+    -->
 
     <!-- Interesting example options -->
     <!--
